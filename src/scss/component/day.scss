@@ -1,0 +1,57 @@
+.day {
+  &_light{
+    width: 400px;
+    height: 300px;
+    box-shadow: 2px 5px 25px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    transition: 0.7s ease-in-out;
+  }
+  &_dark{
+    width: 400px;
+    height: 300px;
+    box-shadow: 2px 5px 25px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: #4f4f4f;
+    transition: 0.7s ease-in-out;
+    p{
+      color: #939cb0;
+    }
+  }
+  &_top {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &_temp {
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 117px;
+    color: #4793ff;
+  }
+  &_this {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+  }
+  &_today_light {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+  }
+  &_today_dark {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #ffffff;
+  }
+  &_bottom {
+    padding: 0 20px;
+    p{
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+}
+

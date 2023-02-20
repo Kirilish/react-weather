@@ -1,0 +1,94 @@
+.weather {
+  margin-top: 20px;
+  transition: 0.7s all;
+  &_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  &_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  &_management {
+    margin-top: 20px;
+  }
+  &_btn {
+    margin-right: 10px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #ffff;
+    border-color: none;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+    &:hover {
+      background-color: #4793ff;
+      color: #ffffff;
+      box-shadow: 2px 5px 25px -3px rgba(0, 0, 0, 1);
+    }
+  }
+  &_card {
+    &_light {
+      max-width: 200px;
+      height: 300px;
+      box-shadow: 2px 5px 25px -3px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      transition: 0.7s ease-in-out;
+    }
+    &_dark {
+      max-width: 200px;
+      height: 300px;
+      box-shadow: 2px 5px 25px -3px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      background-color: #4f4f4f;
+      transition: 0.7s ease-in-out;
+    }
+  }
+
+  &_info {
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    &_day {
+      margin-top: 5px;
+      color: #4793ff;
+      text-align: center;
+    }
+    &_info {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    &_img {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &_name {
+      font-size: 16px;
+      font-weight: 600;
+      color: #707070;
+    }
+    &_desc {
+      font-size: 14px;
+      color: #939cb0;
+    }
+  }
+}
+
+.data {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  &_block {
+    width: 150px;
+    height: 200px;
+    background: rgba(71, 147, 255, 0.2);
+    border-radius: 10px;
+  }
+}
