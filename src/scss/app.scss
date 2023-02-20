@@ -1,0 +1,29 @@
+@import "libs/normalize";
+@import "./component//all.scss";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  &_dark {
+    background-color: rgb(27, 27, 27);
+    transition: 0.7s ease-in-out;
+
+    h2 {
+      color: #ffffff;
+    }
+    h3 {
+      color: #ffffff;
+    }
+  }
+  &_light {
+    background-color: rgb(255, 255, 255);
+    transition: 0.7s ease-in-out;
+  }
+}
+
+.container {
+  max-width: 1600px;
+  padding: 0 200px 100px 200px;
+}
